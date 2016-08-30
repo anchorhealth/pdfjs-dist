@@ -1,0 +1,15 @@
+{
+  "name": "@anchorhealth/pdfjs-dist",
+  "version": "1.5.406",
+  "private": true,
+  "main": "index.js",
+  "description": "A custom build of Mozilla's PDF.js library.",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-ensure": "^0.0.0"
+  },
+  "browser": {
+    "node-ensure": false
+  },
+  "format": "amd"
+}
